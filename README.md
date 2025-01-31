@@ -1,0 +1,1 @@
+# menu-translator-google-extension
