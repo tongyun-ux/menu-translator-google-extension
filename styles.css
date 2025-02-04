@@ -1,0 +1,11 @@
+.menu-translator-tooltip {
+  position: fixed;
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  pointer-events: none;
+  display: none;
+} 

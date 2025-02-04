@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Menu Translator",
+  "version": "1.0",
+  "description": "Translate menu items on hover",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+} 
